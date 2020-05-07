@@ -123,3 +123,7 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = '/pokemon/'
 
 LOGOUT_REDIRECT_URL = '/'
+
+#Heroku Deployment Config
+import django_heroku
+django_heroku.settings(locals())
